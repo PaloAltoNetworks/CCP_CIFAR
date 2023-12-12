@@ -1,0 +1,5 @@
+tensorflow==2.10.0
+tensorflow-addons==0.18.0
+scikit-learn==1.0.1
+numpy==1.21.6
+configparse==0.1.5
