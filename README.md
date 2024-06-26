@@ -120,14 +120,18 @@ Use `get_processed_dataset.py` to create an altered version of CIFAR reflecting 
 ## Cite
 
 ```
-@misc{kutt2023contrastive,
-      title={Contrastive Credibility Propagation for Reliable Semi-Supervised Learning},
-      author={Brody Kutt and Pralay Ramteke and Xavier Mignot and Pamela Toman and Nandini Ramanan and Sujit Rokka Chhetri and Shan Huang and Min Du and William Hewlett},
-      year={2023},
-      eprint={2211.09929},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG}
+@article{
+    Kutt_Ramteke_Mignot_Toman_Ramanan_Rokka Chhetri_Huang_Du_Hewlett_2024,
+    title={Contrastive Credibility Propagation for Reliable Semi-supervised Learning},
+    volume={38},
+    url={https://ojs.aaai.org/index.php/AAAI/article/view/30124},
+    DOI={10.1609/aaai.v38i19.30124},
+    abstractNote={Producing labels for unlabeled data is error-prone, making semi-supervised learning (SSL) troublesome. Often, little is known about when and why an algorithm fails to outperform a supervised baseline. Using benchmark datasets, we craft five common real-world SSL data scenarios: few-label, open-set, noisy-label, and class distribution imbalance/misalignment in the labeled and unlabeled sets. We propose a novel algorithm called Contrastive Credibility Propagation (CCP) for deep SSL via iterative transductive pseudo-label refinement. CCP unifies semi-supervised learning and noisy label learning for the goal of reliably outperforming a supervised baseline in any data scenario. Compared to prior methods which focus on a subset of scenarios, CCP uniquely outperforms the supervised baseline in all scenarios, supporting practitioners when the qualities of labeled or unlabeled data are unknown.},
+    number={19},
+    journal={Proceedings of the AAAI Conference on Artificial Intelligence},
+    author={Kutt, Brody and Ramteke, Pralay and Mignot, Xavier and Toman, Pamela and Ramanan, Nandini and Rokka Chhetri, Sujit and Huang, Shan and Du, Min and Hewlett, William},
+    year={2024},
+    month={Mar.},
+    pages={21294-21303}
 }
 ```
-
-Note: This paper has been accepted to appear in AAAI '24. The proper AAAI '24 citation will be updated at that time.
